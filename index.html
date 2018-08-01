@@ -1,212 +1,822 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>InOut 4.0 | India's leading Hackathon</title>
-    <meta property="fb:app_id" content="349176421957919" />
-    <meta property="og:title" content="InOut 4.0 | India's leading Hackathon" >
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://hackinout.co" />
-    <meta property="og:image" content="https://hackinout.co/assets/img/fb-og.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="1200" />
-    <meta property="og:description" content="InOut is India’s leading Hackathon, characterized by remarkable rounds of intense coding and brainstorming! Come together for 30 hours with the brightest developers and designers to create something amazing." />
-    <meta name="description" content="InOut 4.0: India's leading Hackathon" />
-    <meta name="keywords" content="hackathon, bangalore, hackathon india, InOut, technology, startups, innovation, hacks" />
-    <meta name="author" content="InOut" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="theme-color" content="#ffffff" />
-    <meta http-equiv="cache-control" content="public" />
-    <meta http-equiv="expires" content="Friday, 26 May 2017, 00:00:00 GMT" />
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./assets/img/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/img/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/img/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/img/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./assets/img/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./assets/img/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./assets/img/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./assets/img/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="../assets/img/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="../assets/img/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="../assets/img/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="../assets/img/favicon-128.png" sizes="128x128" />
-    <meta name="application-name" content="&nbsp;" />
-    <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="/assets/img/mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="/assets/img/mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="/assets/img/mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="/assets/img/mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="/assets/img/mstile-310x310.png" />
-     <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Rajdhani:600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/main.min.css" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Evento -Event Html Template">
+    <meta name="keywords" content="Evento , Event , Html, Template">
+    <meta name="author" content="ColorLib">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- ========== Title ========== -->
+    <title> Evento - Event Html Template</title>
+    <!-- ========== Favicon Ico ========== -->
+    <!--<link rel="icon" href="fav.ico">-->
+    <!-- ========== STYLESHEETS ========== -->
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts Icon CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/et-line.css" rel="stylesheet">
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    <!-- Carousel CSS -->
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
 </head>
 <body>
-    <div id="play-modal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content embed-responsive embed-responsive-16by9">
-                <iframe id="video" src="" frameborder="0" allowfullscreen></iframe>
+<div class="loader">
+    <div class="loader-outter"></div>
+    <div class="loader-inner"></div>
+</div>
+
+<!--header start here -->
+<header class="header navbar fixed-top navbar-expand-md">
+    <div class="container">
+        <a class="navbar-brand logo" href="#">
+            <img src="assets/img/logo.png" alt="Evento"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-text-align-right"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
+            <ul class=" nav navbar-nav menu">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Contact</a>
+                </li>
+                <li class="search_btn">
+                    <a  href="#">
+                       <i class="ion-ios-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!--header end here-->
+
+<!--cover section slider -->
+<section id="home" class="home-cover">
+    <div class="cover_slider owl-carousel owl-theme">
+        <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
+             <div class="slider_content">
+                <div class="slider-content-inner">
+                    <div class="container">
+                        <div class="slider-content-center">
+                            <h2 class="cover-title">
+                                Prepare yourself for the
+                            </h2>
+                            <strong class="cover-xl-text">conference</strong>
+                            <p class="cover-date">
+                                12-14 February 2018  - Los Angeles, CA.
+                            </p>
+                            <a href="#" class=" btn btn-primary btn-rounded" >
+                                Buy Tickets Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
+            <div class="slider_content">
+                <div class="slider-content-inner">
+                    <div class="container">
+                        <div class="slider-content-left">
+                            <h2 class="cover-title">
+                                Prepare yourself for the
+                            </h2>
+                            <strong class="cover-xl-text">conference</strong>
+                            <p class="cover-date">
+                                12-14 February 2018  - Los Angeles, CA.
+                            </p>
+                            <a href="#" class=" btn btn-primary btn-rounded" >
+                                Buy Tickets Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
+            <div class="slider_content">
+                <div class="slider-content-inner">
+                    <div class="container">
+                        <div class="slider-content-center">
+                            <h2 class="cover-title">
+                                Prepare yourself for the
+                            </h2>
+                            <strong class="cover-xl-text">conference</strong>
+                            <p class="cover-date">
+                                12-14 February 2018  - Los Angeles, CA.
+                            </p>
+                            <a href="#" class=" btn btn-primary btn-rounded" >
+                                Buy Tickets Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-1 col-md-10 col-sm-10 col-sm-offset-1">
-                    <img class="header-logo" src="assets/img/logo_header.svg" />
-                    <h1 class="header-content">This is the fourth we're gearing up for. <br> <span class="text-color">hacking soon!</span>
-                        </br>
-                        <span class="location">
-                            7 - 8 OCTOBER, 2017 | BANGALORE
-                        </span>
-                    </h1>
-                </div>
-                <!-- Begin MailChimp Signup Form -->
-                <div class="feedback col-md-6 col-md-offset-1 col-sm-8 col-sm-offset-1">
-                    <form action="https://hackinout.us11.list-manage.com/subscribe/post-json?u=92edaf8cceb48367de8440317&amp;id=b60dec666b&c=?"
-                        method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="lovely-human@example.com" required>
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                        </div>
-                        <input type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe" class="mc-button">
-                </div>
-            </div>
-            <div id="subscribe-result" class="col-md-4 col-md-offset-1">
-            </div>
-            </form>
-        </div>
-        <!-- End mc_embed_signup-->
-        </div>
-        </div>
-    </header>
-    <!-- About Section -->
-    <section>
-        <div class="container-fluid">
-            <div class="row about-video">
-                <div class="col-lg-6 col-md-6 about-container">
-                    <div class="col-lg-8 col-md-10 col-md-offset-2 about-content">
-                        <p class="section-lead">Making a long story short</p>
-                        <p class="section-paragraph">InOut prides itself as India’s leading Hackathon since it's inception in April 2015. Attracting the bunch of passionate developers &amp; designers who are engaged with the latest technologies, InOut is actively contributing to the conversation of what the next decade of technology will look like!</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 video-container" data-toggle="modal" data-target=".bs-example-modal-lg" id="play-video">
-                    <div class="play">
-                        <img src="assets/img/watch-video.svg" class="play-button img-responsive">
-                    </div>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- Sponsor Section -->
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 col-md-10 col-sm-10 col-sm-offset-1">
-                    <h1 class="section-heading sponsor-heading">Past Sponsors</h1>
-                    <img class="sponsors-img" src="assets/img/sponsors.png" />
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Give us money-->
-    <section class="money">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-5 col-md-offset-1 col-sm-12 col-xs-12">
-                    <h1 class="">Interested in sponsoring?</h1>
-                </div>
-                <div class="col-md-5 com-sm-4 col-xs-12">
-                    <p class="">
-                        <a href="/sponsor" title="go to sponsor page" class="btn btn-success">CLICK HERE!</a>
-                    </p>
-                </div>
-            </div
-        </div>
-    </section>
-    <!-- Footer -->
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 col-xs-12">
-                    <div class="col-md-5 text-footer">
-                        <p class="footer-text">
-                            <img src="assets/img/icon-code.svg"></img>
-                            with<img src="assets/img/icon-heart.svg"></img>
-                            at<a href="https://github.com/hackinout" target="_blank" title="InOut on GitHub">
-                                <img class="inout-logo" src="assets/img/logo_footer.svg" />
-                            </a>
+    <div class="cover_nav">
+        <ul class="cover_dots">
+            <li class="active" data="0"><span>1</span></li>
+            <li  data="1"><span>2</span></li>
+            <li  data="2"><span>3</span></li>
+        </ul>
+    </div>
+</section>
+<!--cover section slider end -->
+
+<!--event info -->
+<section class="pt100 pb100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-calendar-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            DATE
+                        </h5>
+                        <p>
+                            12-14 february 2018
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 col-xs-12">
-                    <div class="hidden-icons"></div>
-                    <div class="col-md-7 footer-social">
-                        <ul class="list-inline">
+            </div>
+
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-location-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            location
+                        </h5>
+                        <p>
+                            Los Angeles, CA.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-person-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            speakers
+                        </h5>
+                        <p>
+                            Natalie James
+                            + guests
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-pricetag-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            tikets
+                        </h5>
+                        <p>
+                            $65 early bird
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--event info end -->
+
+
+<!--event countdown -->
+<section class="bg-img pt70 pb70" style="background-image: url('assets/img/bg/bg-img.png');">
+    <div class="overlay_dark"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10">
+                <h4 class="mb30 text-center color-light">Counter until the big event</h4>
+                <div class="countdown"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--event count down end-->
+
+
+<!--about the event -->
+<section class="pt100 pb100">
+    <div class="container">
+        <div class="section_title">
+            <h3 class="title">
+                About the event
+            </h3>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+                </p>
+            </div>
+            <div class="col-12 col-md-6">
+                <p>
+                    In rhoncus massa nec  sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod quis. Maecenas ornare, ex in malesuada tempus.
+                </p>
+            </div>
+        </div>
+
+        <!--event features-->
+        <div class="row justify-content-center mt30">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-mic"></i>
+                    <div class="content">
+                        <h4>9 Speakers</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.
+                        </p>
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-rocket"></i>
+                    <div class="content">
+                        <h4>8 hrs Marathon</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.
+                        </p>
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-bullhorn"></i>
+                    <div class="content">
+                        <h4>Live Broadcast</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.
+                        </p>
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-clock"></i>
+                    <div class="content">
+                        <h4>Early Bird</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.
+                        </p>
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--event features end-->
+    </div>
+</section>
+<!--about the event end -->
+
+
+<!--speaker section-->
+<section class="pb100">
+    <div class="container">
+        <div class="section_title mb50">
+            <h3 class="title">
+               our speakers
+            </h3>
+        </div>
+    </div>
+    <div class="row justify-content-center no-gutters">
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s1.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Patricia Stone</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s2.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">James Oliver</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s3.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Carla Banks</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s4.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">William Smith</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s5.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Jessica Black</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s6.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Patricia Stone</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s7.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Duncan Stan</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s8.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Patricia Stone</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--speaker section end -->
+
+<!--Price section-->
+<section class="pb100">
+    <div class="container">
+        <div class="section_title mb50">
+            <h3 class="title">
+                Pricing table
+            </h3>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-12">
+                <div class="price_box active">
+                    <div class="price_highlight">
+                        recommended
+                    </div>
+                   <div class="price_header">
+                       <h4>
+                           Early Bird
+                       </h4>
+                       <h6>
+                           For the fast ones
+                       </h6>
+                   </div>
+                    <div class="price_tag">
+                        65 <sup>$</sup>
+                    </div>
+                    <div class="price_features">
+                        <ul>
                             <li>
-                                <a href="https://twitter.com/hackinoutco" class="btn-social btn-outline">
-                                    <div class="inout-twitter inout-social"></div>
+                                Early Entrance
+                            </li>
+                            <li>
+                                Front seat
+                            </li>
+                            <li>
+                                Complementary Drinks
+                            </li>
+                            <li>
+                                Promo Gift
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <a href="#" class="btn btn-primary btn-rounded">Purchase</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="price_box">
+                    <div class="price_header">
+                        <h4>
+                            Start up
+                        </h4>
+                        <h6>
+                            For the begginers
+                        </h6>
+                    </div>
+                    <div class="price_tag">
+                        85 <sup>$</sup>
+                    </div>
+                    <div class="price_features">
+                        <ul>
+                            <li>
+                                Early Entrance
+                            </li>
+                            <li>
+                                Front seat
+                            </li>
+                            <li>
+                                Complementary Drinks
+                            </li>
+                            <li>
+                                Promo Gift
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <a href="#" class="btn btn-primary btn-rounded">Purchase</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="price_box">
+                    <div class="price_header">
+                        <h4>
+                            Corporate
+                        </h4>
+                        <h6>
+                            For the business
+                        </h6>
+                    </div>
+                    <div class="price_tag">
+                        95 <sup>$</sup>
+                    </div>
+                    <div class="price_features">
+                        <ul>
+                            <li>
+                                Early Entrance
+                            </li>
+                            <li>
+                                Front seat
+                            </li>
+                            <li>
+                                Complementary Drinks
+                            </li>
+                            <li>
+                                Promo Gift
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <a href="#" class="btn btn-primary btn-rounded">Purchase</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--price section end -->
+
+<!--event calender-->
+<section class="pb100">
+    <div class="container">
+        <div class="table-responsive">
+            <table class="event_calender table">
+                <thead class="event_title">
+                <tr>
+                    <th>
+                        <i class="ion-ios-calendar-outline"></i>
+                        <span>next events calendar</span>
+                    </th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <img src="assets/img/cleander/c1.png" alt="event">
+                    </td>
+                    <td class="event_date">
+                        14
+                        <span>February</span>
+                    </td>
+                    <td>
+                        <div class="event_place">
+                            <h5>Conference in Amsterdam</h5>
+                            <h6>08 AM - 04 PM</h6>
+                            <p>Speaker: Daniel Hill</p>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-rounded">Read More</a>
+                    </td>
+                    <td class="buy_link">
+                        <a href="#">buy now</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="assets/img/cleander/c2.png" alt="event">
+                    </td>
+                    <td class="event_date">
+                        18
+                        <span>February</span>
+                    </td>
+                    <td>
+                        <div class="event_place">
+                            <h5>Conference in Amsterdam</h5>
+                            <h6>08 AM - 04 PM</h6>
+                            <p>Speaker: Daniel Hill</p>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-rounded">Read More</a>
+                    </td>
+                    <td class="buy_link">
+                        <a href="#">buy now</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="assets/img/cleander/c3.png" alt="event">
+                    </td>
+                    <td class="event_date">
+                        22
+                        <span>February</span>
+                    </td>
+                    <td>
+                        <div class="event_place">
+                            <h5>Conference in Amsterdam</h5>
+                            <h6>08 AM - 04 PM</h6>
+                            <p>Speaker: Daniel Hill</p>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-rounded">Read More</a>
+                    </td>
+                    <td class="buy_link">
+                        <a href="#">buy now</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+<!--event calender end -->
+
+<!--brands section -->
+<section class="bg-gray pt100 pb100">
+    <div class="container">
+        <div class="section_title mb50">
+            <h3 class="title">
+                our partners
+            </h3>
+        </div>
+        <div class="brand_carousel owl-carousel">
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b1.png" alt="brand">
+            </div>
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b2.png" alt="brand">
+            </div>
+
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b3.png" alt="brand">
+            </div>
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b4.png" alt="brand">
+            </div>
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b5.png" alt="brand">
+            </div>
+        </div>
+    </div>
+</section>
+<!--brands section end-->
+
+<!--get tickets section -->
+<section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
+    <div class="container">
+        <div class="section_title mb30">
+            <h3 class="title color-light">
+                GEt your tikets
+            </h3>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-9 text-md-left text-center color-light">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in aazzzCurabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+            </div>
+            <div class="col-md-3 text-md-right text-center">
+                <a href="#" class="btn btn-primary btn-rounded mt30">buy now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--get tickets section end-->
+
+<!--footer start -->
+<footer>
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-md-4 col-12">
+                <div class="footer_box">
+                    <div class="footer_header">
+                        <div class="footer_logo">
+                            <img src="assets/img/logo.png" alt="evento">
+                        </div>
+                    </div>
+                    <div class="footer_box_body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in aazzzCurabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+                        </p>
+                        <ul class="footer_social">
+                            <li>
+                                <a href="#"><i class="ion-social-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-dribbble"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="footer_box">
+                    <div class="footer_header">
+                        <h4 class="footer_title">
+                            instagram
+                        </h4>
+                    </div>
+                    <div class="footer_box_body">
+                        <ul class="instagram_list">
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/cleander/c1.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.facebook.com/hackinout/" class="btn-social btn-outline">
-                                    <div class="inout-facebook inout-social"></div>
+                                <a href="#">
+                                    <img src="assets/img/cleander/c2.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/company/hack-inout" class="btn-social btn-outline">
-                                    <div class="inout-linkedin inout-social"></div>
+                                <a href="#">
+                                    <img src="assets/img/cleander/c3.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/hackinoutco/" class="btn-social btn-outline">
-                                    <div class="inout-instagram inout-social"></div>
+                                <a href="#">
+                                    <img src="assets/img/cleander/c3.png" alt="instagram">
                                 </a>
                             </li>
                             <li>
-                                <a href="http://slack.hackinout.co" class="btn-social btn-outline">
-                                    <div class="inout-slack inout-social"></div>
+                                <a href="#">
+                                    <img src="assets/img/cleander/c2.png" alt="instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/cleander/c1.png" alt="instagram">
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </footer>
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Bootstrap Modal JavaScript -->
-    <script src="js/bootstrap-modal.min.js"></script>
-    <!-- Custom JavaScript -->
-    <script src="js/main.min.js"></script>
-    <!-- Google Analytics -->
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-97035912-1', 'auto');
-  ga('send', 'pageview');
-   </script>
-   <!-- Start of HubSpot Embed Code -->
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3292915.js"></script>
-<!-- End of HubSpot Embed Code -->
+            <div class="col-12 col-md-4">
+                <div class="footer_box">
+                    <div class="footer_header">
+                        <h4 class="footer_title">
+                            subscribe to our newsletter
+                        </h4>
+                    </div>
+                    <div class="footer_box_body">
+                        <div class="newsletter_form">
+                            <input type="email" class="form-control" placeholder="E-Mail here">
+                            <button class="btn btn-rounded btn-block btn-primary">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright_footer">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-12">
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+            <div class="col-12 col-md-6 ">
+                <ul class="footer_menu">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Speakers</a>
+                    </li>
+                    <li>
+                        <a href="#">Events</a>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer end -->
+
+<!-- jquery -->
+<script src="assets/js/jquery.min.js"></script>
+<!-- bootstrap -->
+<script src="assets/js/popper.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<!--slick carousel -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!--parallax -->
+<script src="assets/js/parallax.min.js"></script>
+<!--Counter up -->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!--Counter down -->
+<script src="assets/js/jquery.countdown.min.js"></script>
+<!-- WOW JS -->
+<script src="assets/js/wow.min.js"></script>
+<!-- Custom js -->
+<script src="assets/js/main.js"></script>
 </body>
 </html>
